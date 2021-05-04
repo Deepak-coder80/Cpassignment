@@ -1,4 +1,4 @@
-//TODO: problem 3 : check the number is palidrome or not
+//TODO: problem 2 : check the number is palidrome or not
 
 #include <stdio.h>
 
