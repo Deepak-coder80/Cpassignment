@@ -10,14 +10,19 @@ int main(){
     printf("Enter the number");
     scanf("%d",&orNum);
 
+    //store the number orignal number to the temporary variable
     tempNum=orNum;
     
     while(tempNum != 0){
+        //find the remider
         reminder = (tempNum%10);
+        //update the reNum value
         reNum = reNum*10 + reminder;
+        //repeat the loop while tempNum with out the last digit 
         tempNum = tempNum/10;
     }
 
+    //check whether the reNum equal to orNum
     if(orNum == reNum){
         printf("Palidrome Number\n");
     }else{
